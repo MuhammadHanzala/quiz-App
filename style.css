@@ -1,0 +1,222 @@
+#quesAns{
+    display: none;
+}
+body{
+        background: url(./a.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+#container{
+        height: 570px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+
+}
+.logo{
+    width: 40%;
+    height: 350px;
+}
+.heading{
+    color: wheat;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.slogan{
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.button{
+        width: 50%;
+    height: 45px;
+    background-color: #0f75bd;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+    cursor: pointer;
+    margin-bottom: 11px;
+    border: 2px solid white;
+    transition: 0.8s;
+    outline: none;
+}
+.button:hover{
+    background-color: white;
+    color: #0f75bd;
+    border: 2px solid #0f75bd;
+}
+.button:active{
+    background-color: #091d23;
+    color: white;
+    border: 2px solid white;
+    transition: 0s
+}
+#qcounter{
+    color: lightgreen;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#counter{
+    border: 1px solid white;
+    width: 100%;
+    height: 60px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+#demo{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.options{
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+    font-family: cursive;
+    transition: 0.4s;
+    font-size: 20px;
+}
+#ques{
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+    transition: 0.4s;
+}
+#nxt{
+    
+           width: 36%;
+    height: 45px;
+    background-color: #0f75bd;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+    cursor: pointer;
+    margin-bottom: 11px;
+    border: 2px solid white;
+    transition: 0.8s;
+    outline: none;
+}
+#nxt:hover{
+    background-color: white;
+    color: #0f75bd;
+    border: 2px solid #0f75bd;
+}
+#nxt:active{
+    background-color: #091d23;
+    color: white;
+    border: 2px solid white;
+    transition: 0s
+}
+
+
+
+.hdngCorrect{
+    color: rgb(153, 243, 172);
+    font-size: 24px;
+}
+#remarks{
+    color: red; 
+}
+#rightAns{
+    color: white;
+    font-size: 24px;
+}
+#score{
+    color: white;
+    font-size: 24px;
+}
+.results{
+    display: none;
+}
+.author{
+    text-align: center;
+    color: white;
+
+}
+#mh{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: fantasy;
+    color: darkorange;
+}
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #container{
+        width: 99%;
+        height: auto;
+    }
+    .logo {
+    width: 40%;
+    height: 200px;
+    }
+    #remarks{
+        font-size: 20px;
+    }
+    .button{
+        width: 55%;
+    }
+    #nxt{
+        width: 50%;
+    }
+
+}
+
+
+@media only screen  and (min-width : 1824px) {
+    #container{
+        width: 50%;
+        height: auto;
+    }
+    .heading{font-size: 50px}
+    .slogan{font-size: 30px;}
+    .logo{
+        height: 630px;
+        width: 100%;
+    }
+    .button{
+        width: 30%;
+        height: 50px;
+        font-size: 35px;
+    }
+    #nxt{
+        width: 30%;
+        height: 50px;
+        font-size: 35px;
+    }
+    #counter{
+        height: 90px;
+    }
+    #qcounter{
+        font-size: 30px;
+    }
+    #demo{
+        font-size: 30px;
+    }
+    #ques{
+        font-size: 45px;
+    }
+    .options{
+        font-size: 45px;
+    }
+    input[type=radio] {
+    zoom: 2.5;
+}
+#remarks{font-size: 50px}
+.hdngCorrect{font-size: 48px}
+#rightAns{font-size: 60px}
+#score{font-size: 60px}
+}
